@@ -4,6 +4,7 @@ package mysqld_exporter //nolint:golint
 import (
 	"context"
 	"fmt"
+	"log/slog"
 	"os"
 
 	config_util "github.com/prometheus/common/config"
@@ -122,7 +123,7 @@ func New(log log.Logger, c *Config) (integrations.Integration, error) {
 	}
 
 	scrapers := GetScrapers(c)
-	exporter := collector.New(context.Background(), string(dsn), scrapers, log, collector.Config{
+	exporter := collector.New(context.Background(), string(dsn), scrapers, slog.Default(), collector.Config{
 		LockTimeout:   c.LockWaitTimeout,
 		SlowLogFilter: c.LogSlowFilter,
 	})
