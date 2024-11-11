@@ -1867,8 +1867,8 @@ github.com/grafana/loki/pkg/push v0.0.0-20240617182007-6c33561108ad h1:4XAhmVmKb
 github.com/grafana/loki/pkg/push v0.0.0-20240617182007-6c33561108ad/go.mod h1:lJEF/Wh5MYlmBem6tOYAFObkLsuikfrEf8Iy9AdMPiQ=
 github.com/grafana/loki/v3 v3.0.0-20240617182007-6c33561108ad h1:eaHz6gH7OM3LWGp1h2QZ+/wkeyjNspk3QwjD4YUWR5g=
 github.com/grafana/loki/v3 v3.0.0-20240617182007-6c33561108ad/go.mod h1:fKBY3k60xjlGcIdbOaJiy3aWopF65FpQvQWczCp2SZ0=
-github.com/grafana/mysqld_exporter v0.15.1-0.20241014135602-1f5a8998ad7d h1:ldyEg1i/Wgywm0fQFcKqGXnjnIbOaU7sdXmCthmy+nA=
-github.com/grafana/mysqld_exporter v0.15.1-0.20241014135602-1f5a8998ad7d/go.mod h1:Yfc1deitRGT8zM0u1+iiPUDTb219B+0jgAsRlsJyepA=
+github.com/grafana/mysqld_exporter v0.16.1-0.20241111085008-47b8ea9fab19 h1:JKMpcPPmhU198g3skPdSf2YvcgUKZ6bf3X1uTXnCZXU=
+github.com/grafana/mysqld_exporter v0.16.1-0.20241111085008-47b8ea9fab19/go.mod h1:ctzLZ0vK3ow5JZmBfbS261ufC/4vtfuwFileKJea3kg=
 github.com/grafana/node_exporter v0.18.1-grafana-r01.0.20231004161416-702318429731 h1:vyyIYY2sLpmgFIckJ1vSO/oYkvB0thDF6UiFYp5PThM=
 github.com/grafana/node_exporter v0.18.1-grafana-r01.0.20231004161416-702318429731/go.mod h1:vOZxEzxm0nZmuNqjtIfvtmvdRtJik9POmcN5mQVLf5E=
 github.com/grafana/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.0.0-20240326165551-1ae1b9218b1b h1:o7tJxI3dVrIwZwNd7feiMNjYRnbMvyGCQtxJGgfORQQ=
@@ -2883,8 +2883,8 @@ github.com/prometheus/common v0.37.0/go.mod h1:phzohg0JFMnBEFGxTDbfu3QyL5GI8gTQJ
 github.com/prometheus/common v0.42.0/go.mod h1:xBwqVerjNdUDjgODMpudtOMwlOwf2SaTr1yjz4b7Zbc=
 github.com/prometheus/common v0.44.0/go.mod h1:ofAIvZbQ1e/nugmZGz4/qCb9Ap1VoSTIO7x0VV9VvuY=
 github.com/prometheus/common v0.45.0/go.mod h1:YJmSTw9BoKxJplESWWxlbyttQR4uaEcGyv9MZjVOJsY=
-github.com/prometheus/common v0.60.0 h1:+V9PAREWNvJMAuJ1x1BaWl9dewMW4YrHZQbx0sJNllA=
-github.com/prometheus/common v0.60.0/go.mod h1:h0LYf1R1deLSKtD4Vdg8gy4RuOvENW2J/h19V5NADQw=
+github.com/prometheus/common v0.60.1 h1:FUas6GcOw66yB/73KC+BOZoFJmbo/1pojoILArPAaSc=
+github.com/prometheus/common v0.60.1/go.mod h1:h0LYf1R1deLSKtD4Vdg8gy4RuOvENW2J/h19V5NADQw=
 github.com/prometheus/common/sigv4 v0.1.0 h1:qoVebwtwwEhS85Czm2dSROY5fTo2PAPEVdDeppTwGX4=
 github.com/prometheus/common/sigv4 v0.1.0/go.mod h1:2Jkxxk9yYvCkE5G1sQT7GuEXm57JrvHu9k5YwTjsNtI=
 github.com/prometheus/consul_exporter v0.8.0 h1:2z3drFic65WFoHaJRKkmnJRRlBLmmxVqT8L9LO2yxAo=
