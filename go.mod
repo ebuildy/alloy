@@ -850,10 +850,7 @@ require (
 	go.opentelemetry.io/otel/exporters/stdout/stdoutlog v0.7.0 // indirect
 )
 
-require (
-	github.com/mackerelio/go-osstat v0.2.5
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter v0.112.0
-)
+require github.com/mackerelio/go-osstat v0.2.5
 
 // NOTE: replace directives below must always be *temporary*.
 //
@@ -909,7 +906,9 @@ replace (
 	// https://github.com/grafana/cadvisor/tree/grafana-v0.47-noglobals
 	github.com/google/cadvisor => github.com/grafana/cadvisor v0.0.0-20240729082359-1f04a91701e2
 
-	github.com/prometheus-community/postgres_exporter => github.com/grafana/postgres_exporter v0.15.1-0.20240417113938-9358270470dd
+	// TODO(dehaansa): integrate the changes from the exporter-package-v0.15.0 branch into at least the
+	// grafana fork of the exporter, or completely into upstream
+	github.com/prometheus-community/postgres_exporter => github.com/grafana/postgres_exporter v0.15.1-0.20241105053755-e0a51174f168
 
 	// Needed until a bunch of exporters are updated, because 0.13.0 breaks compatibility in web.ListenAndServe
 	github.com/prometheus/exporter-toolkit => github.com/prometheus/exporter-toolkit v0.11.0
